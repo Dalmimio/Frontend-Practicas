@@ -1,0 +1,194 @@
+form{
+    width: 80%;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.primera, .segunda{
+    width: 46%;
+}
+
+label{
+    margin-top: 15px;
+}
+input{
+  margin-top: 5px;
+  background-color: rgba(255, 255, 255, 0.041);
+  border: none;
+  border-bottom: solid 2px rgb(34, 20, 20);
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+
+}
+
+/* Estilos especificos, segun el type */
+input[type="file"]{
+    background-color: rgba(79, 5, 5, 0.491);
+}
+
+/* input[type="email"]{
+    background-color: rgba(128, 255, 0, 0.534);
+}
+
+input[type="text"]{
+    background-color: coral;
+} */
+
+input[type="submit"]{
+    margin-top: 35px;
+    padding: 10px 20px;
+    width: 80px;
+    background-color: black;
+    align-self: center;
+    cursor: pointer;
+}
+
+
+
+input[type="radio"]{
+    /* CAMBIA EL COLOR DEL RADIO BUTTON */
+    accent-color: black;
+}
+input[type="checkbox"]{
+    /* CAMBIA EL COLOR DEL CHECKBOX */
+    accent-color: black;
+}
+
+
+/* PARA CAMBIAR COLOR AL PLACE HOLDER */
+::placeholder{ color: rgb(43, 43, 43); }
+
+fieldset{
+    /* CAMBIAR COLOR AL BORDE DEL FIELDSET */
+    border: rgb(226, 201, 226) 4px double;
+}
+
+
+
+
+/* ESTILOS  DE TABLAS */
+
+table{
+    border: 1px solid black;
+     /* vw = % solo que escrito de otra forma */
+    width: 90vw;
+    /* vh = % solo que escrito de otra forma */
+    height: 50vh;
+}
+
+thead, tfoot{
+    background-color: green;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+tbody{
+    background-color: yellowgreen;
+    padding: 5px;
+}
+
+th, td{
+    padding: 5px;
+    margin: 5px;
+    width: 20%;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* PAGINA CON BOOTSTRAP */
+/* .nav-item a{
+    color: white !important;
+} */
+
+.centrar{
+    margin-left: 15px;
+}
+
+.card{
+    width: 18rem;
+    min-height: 18rem;
+}
+
+.card-img-top{
+    height: 10rem;
+    
+}
+
+.card-img-top2{
+    height: 10rem;
+    background-image: url(https://th.bing.com/th/id/OIP.YTPWOXelpoe4XO2UmkpOGgHaIR?pid=ImgDet&w=487&h=544&rs=1);
+    background-size: cover;
+    background-position: center;
+}
+/* -------- MEDIA QUERYS -------- */
+
+@media screen and (max-width:425px){
+    .card-img-top2{
+        background-image: url(https://th.bing.com/th/id/R.fd35a8dd540b41c4c1221c5a8c7ca3b3?rik=LecgR4BogHs58w&pid=ImgRaw&r=0);
+    }
+}
+
+
+
+@media screen and (max-width:610px){
+    .base{
+        flex-direction: column;
+        align-items: center;
+    }
+    .primera{
+        width:90%;
+    }
+    .segunda{
+        width:90%;
+    }
+
+    .card{
+        width: 80% ;
+    }
+}
+
+@media screen and (max-width: 327px){
+    h1{
+        text-align: center;
+        color: rgb(49, 25, 4);
+    }
+
+    form{
+        width: 90%;
+    }
+
+    .card{
+        width: 90%;
+    }
+
+
+}
+
+
+@media screen and (max-width:768px){
+    .ej3{
+        order: 6;
+    }
+    .ej4{
+        order: 2;
+    }
+    .ej1{
+        order: 5;
+    }
+    .ej2{
+        order: 4;
+    }
+    .ej6{
+        order: 1;
+    }
+    .ej5{
+        order: 3;
+    }
+}

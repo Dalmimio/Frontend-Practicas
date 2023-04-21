@@ -1,0 +1,57 @@
+📍 Generador de Gradientes: https://uigradients.com/
+
+📍 Generador de Clip-Path: https://bennettfeely.com/clippy/
+
+📍 Generador waves SVG: https://smooth.ie/blogs/news/svg-wave...
+
+📍 Generador de sombras: https://www.cssmatic.com/box-shadow
+
+📍 Animated.css: https://daneden.github.io/animate.css/
+
+📍 Image hover css: http://imagehover.io/
+
+📍 Loaders CSS: https://loading.io/css/
+
+📍Generador de separación CSS: https://wweb.dev/resources/css-separator-generator/
+
+📍Animate On Scroll Library JS: https://michalsnik.github.io/aos/ 
+
+📍Alerts decoradas JS: https://sweetalert2.github.io/#icons
+
+📍Cheatsheet (dentro encontras CSS,JS,HTML): https://htmlcheatsheet.com/css/
+
+📍Generador de paletas de colores: https://coolors.co/000500-ffffff-ffeb3b-68a357-32965d
+
+📍Estilos de checkboxes: https://freefrontend.com/css-checkboxes/
+
+📍 Apuntes (JS,CSS,HTML): https://losapuntesdemajo.vercel.app/
+
+📍Animaciones CSS: https://animate.style/
+
+📍Icons: https://materialdesignicons.com/icon/
+
+📍Gradientes CSS: https://cssgradient.io/
+
+📍 Icon 2:  https://iconscout.com/
+
+📍Icon 3: https://icons8.com/
+
+📍 Ilustraciones: https://storyset.com/
+
+📍 Box-shadow CSS: https://getcssscan.com/css-box-shadow-examples
+
+📍 Ilustraciones 2: https://www.manypixels.co/gallery
+
+📍 Ilustraciones 3: https://undraw.co/illustrations
+
+📍 BlobMaker: https://www.blobmaker.app/
+
+📍  Waves: https://getwaves.io/
+
+📍 Generador de sombras cute: https://neumorphism.io/#e0e0e0
+
+📍 Generador de botones CSS: https://css3buttongenerator.com/
+
+📍 Efecto cristal: https://css.glass/
+
+📍 Efecto cristal 2: https://hype4.academy/tools/glassmorphism-generator

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <table>
+        <!-- ENCABEZADO DE LA TABLA -->
+        <thead> 
+            <!-- TR 1ER RENGLON  -->
+            <tr>
+                <!-- TH: CADA COLUMNA DE LA TABLA -->
+                <th>Pais</th>
+                <th>Color</th>
+                <th colspan="3">animal</th>
+            </tr>
+        </thead>
+        <!-- CUERPO DE LA TABLA: empezamos a cargar la informacion de la tabla -->
+        <tbody>
+            <!-- TR ES EL RENGLON  -->
+            <tr>
+                <!-- TD: CADA COLUMNA DE LA TABLA --> 
+                <td class="titulo">
+                    Argentina
+                </td>
+                <td>
+                    verde
+                </td>
+                <td>
+                    gato
+                </td>
+                <td>
+                    perro
+                </td>
+                <td>
+                    foca
+                </td>
+            </tr>
+            <tr>
+                <!-- ROWSPAN HACE QUE OCUPE DOS RENGLONES -->
+                <td  rowspan="2" class="titulo">Mexico</td>
+                <td>Rojo</td>
+                <td>Agila</td>
+                <td>Lorito</td>
+                <td>Perro</td>
+            </tr>
+            <tr>
+                <td>Azul</td>
+                <td>Perro</td>
+                <td>Gato</td>
+                <td>Elefante</td>
+            </tr>
+            <tr>
+                <!-- ROWSPAN HACE QUE OCUPE DOS RENGLONES -->
+                <td class="titulo">Chile</td>
+                <td>Rojo</td>
+                <td>Agila</td>
+                <td>Lorito</td>
+                <td>Perro</td>
+            </tr>
+            <tr>
+                <td class="titulo">Uruguay</td>
+                <td>Azul</td>
+                <td>Perro</td>
+                <td>Gato</td>
+                <td>Elefante</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <!-- COLDSPAN HACE QUE OCUPE 5 COLUMNAS EN ESTE CASO, OCUPA LAS QUE VOS INDIQUES -->
+                <td colspan="5">Todos los derechos reservados</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+
+</body>
+</html>
