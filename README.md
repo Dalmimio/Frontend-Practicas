@@ -1,2 +1,1 @@
-# Frontend-Practicas
-Repositorio con prácticas de front
+Hecho hasta el 21 de abril
